@@ -26,10 +26,28 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-first-client" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/eureka-first-client" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-server" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/eureka-server" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-server/eureka-first-client" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/eureka-server/eureka-first-client" />
           </set>
         </option>
       </GradleProjectSettings>
