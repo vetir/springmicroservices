@@ -12,6 +12,21 @@
                   <project path="$PROJECT_DIR$/eureka-server" />
                 </projects>
               </build>
+              <build path="$PROJECT_DIR$/first-client" name="first-client">
+                <projects>
+                  <project path="$PROJECT_DIR$/first-client" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/second-client" name="second-client">
+                <projects>
+                  <project path="$PROJECT_DIR$/second-client" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/api-gateway" name="api-gateway">
+                <projects>
+                  <project path="$PROJECT_DIR$/api-gateway" />
+                </projects>
+              </build>
             </builds>
           </compositeBuild>
         </compositeConfiguration>
@@ -20,16 +35,19 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/api-gateway" />
             <option value="$PROJECT_DIR$/eureka-server" />
+            <option value="$PROJECT_DIR$/first-client" />
+            <option value="$PROJECT_DIR$/second-client" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-first-client" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/api-gateway" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/eureka-first-client" />
+            <option value="$PROJECT_DIR$/api-gateway" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -48,6 +66,24 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/eureka-server/eureka-first-client" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/first-client" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/first-client" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/second-client" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/second-client" />
           </set>
         </option>
       </GradleProjectSettings>
